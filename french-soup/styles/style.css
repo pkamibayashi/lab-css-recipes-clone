@@ -1,9 +1,73 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px 0px 20px;
+}
+
+header {
+  background-image: url("../images/soup.jpg");
+  display: flex;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
+}
+header h1 {
+  color: white;
+  font-size: 3rem;
+  font-family: Poppins;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+  margin-top: 5rem;
+  max-width: 60rem;
+  padding: 0px 4rem 0px 4rem;
+}
+
+main div p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.mainContent {
+  border-bottom: 3px solid rgb(180, 176, 176);
+}
+
+.timeInfo {
+  max-width: 30vw;
+  max-height: 50vh;
+  /* border: 1px solid red; */
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 4rem;
 }
